@@ -3,6 +3,10 @@
 # Uses python3
 #
 
+# Warning: Python integer division '//' does weird things for negative
+#   values. So will the code work for negative numbers?
+# Needs fixing
+#
 def int_to_string(ival):
 	'''
 	This function uses integer division and remainder (modulo) to
